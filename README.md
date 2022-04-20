@@ -1,0 +1,2 @@
+# salty
+Portfolio of projects
