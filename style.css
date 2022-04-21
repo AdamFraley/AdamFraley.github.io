@@ -1,4 +1,116 @@
-.square {
-    height: 200px;
-    width: 200px;
-    border: 2px solid black;
+nav {
+    background-color: blue;
+    background-image: linear-gradient(to right, rgb(151, 12, 151), yellow, purple);
+    font-family: 'Oswald', sans-serif;font-size:15px;
+    font-weight: 700;
+    min-height: 18vh;
+    min-width: 100vw;
+    position: fixed;
+    top: 0;
+}
+.inner_main_menu {margin: 0 auto;}
+.inner_main_menu ul{
+    margin: 0; padding: 0; 
+    list-style: none; 
+    text-align: right; top: 59.75px;
+}
+.inner_main_menu ul li{float: none; display: inline-block}
+.inner_main_menu ul li:nth-child(1){float: left;}
+.inner_main_menu ul li:nth-child(2){float: left;}
+.inner_main_menu ul li:nth-child(3){float: left;}
+.inner_main_menu ul li a{
+    color: #702727; 
+    font-size: 20px; 
+    text-transform: uppercase; 
+    text-decoration: none; 
+    display: block; 
+    padding: 10px 20px; 
+    padding-top: 40px;
+}
+.inner_main_menu ul li a:hover{color: #6FDA44;}
+#main_menu{width: 100%;
+    position: relative;}
+.logo_area {
+    width: "135.5px"; height: "119.5"; 
+    position: absolute; 
+    left: 50%; top: 0; content: ""; 
+    margin-left: -67.75px;
+}
+body {
+    background: url(https://i.stack.imgur.com/SvWWN.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+    /* background-image: url(https://i.stack.imgur.com/SvWWN.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
+}
+.name {
+    font-family: 'Oswald', sans-serif;
+    font-size: x-large;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 4rem;
+    padding-right: 10rem;
+    padding-left: 10rem;
+}
+.contact {
+    font-family: 'Oswald', sans-serif;
+    font-size: x-large;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
+}
+.bio {
+    font-family: 'Oswald', sans-serif;
+    font-size: x-large;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
+    padding-right: 10rem;
+    padding-left: 10rem;
+}
+.projects {
+    font-family: 'Oswald', sans-serif;
+    font-size: x-large;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
+    padding-right: 10rem;
+    padding-left: 10rem; 
+}
+.text-body {
+    padding: 16px;
+    margin-top: 18vh;
+}
+@media (max-width: 992px) {
+    .name, .contact, .bio, .projects {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+@media (max-width: 595px) {
+    .name, .contact, .bio, .projects {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }    
+
+    .inner_main_menu > ul, #main_menu {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .logo_area {
+        position: relative;
+    }
+
+
+}

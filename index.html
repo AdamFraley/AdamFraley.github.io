@@ -4,28 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
     <link href="https://fonts.googleapis.com/css?family=Oswald:400" rel="stylesheet">
-    <title>Menu</title>
-    <style>
-        body{
-            background: url(https://i.stack.imgur.com/SvWWN.png);
-            font-family: 'Oswald', sans-serif;font-size:15px;
-            font-weight: 400;
-            height: 1.5rem;        
-        }
-            .inner_main_menu {margin: 0 auto; width: 1170px;}
-            .inner_main_menu ul{margin: 0; padding: 0; list-style: none; text-align: right; top: 59.75px;}
-            .inner_main_menu ul li{float: none; display: inline-block}
-            .inner_main_menu ul li:nth-child(1){float: left;}
-            .inner_main_menu ul li:nth-child(2){float: left;}
-            .inner_main_menu ul li:nth-child(3){float: left;}
-            .inner_main_menu ul li a{color: #be6565; font-size: 20px; text-transform: uppercase; text-decoration: none; 
-                display: block; padding: 10px 20px; padding-top: 40px;}
-            .inner_main_menu ul li a:hover{color: #6FDA44;}
-            #main_menu{width: 100%; position: relative;}
-            .logo_area{width: "135.5px"; height: "119.5"; position: absolute; left: 50%; top: ; content: ""; margin-left: -67.75px;}
-            
-    </style>
+    <link rel="stylesheet" href="style.css">
+    <title>AF Portfolio</title>
+    
 </head>
 <body>
     <nav>
@@ -36,14 +19,47 @@
             <div class="inner_main_menu">
                 <ul>
                     <li> <a href="#">Home</a></li>
-                    <li> <a href="#">Name</a></li>
-                    <li> <a href="#">Contact</a></li>
-                    <li> <a href="#">Bio</a></li>
+                    <li> <a href="#name">Name</a></li>
+                    <li> <a href="#contact">Contact</a></li>
+                    <li> <a href="#bio">Bio</a></li>
                     <li> <a href="#">Skills</a></li>
-                    <li> <a href="#">Work History</a></li>
+                    <li> <a href="#projects">PROJECTS</a></li>
                 </ul>
             </div>
         </div>
-</nav>
+    </nav>
+    <div class="text-body">
+        <section class="name" id="name">
+            <p>
+                Hi, I'm Adam Fraley and currently a student in a Fullstack Developer Bootcamp<br>
+                Python   -   HTML-CSS   -   Javasript
+            </p>
+        </section>
+        <section class="contact" id="contact">
+            <p>
+                Please contact me at: <u>adamfraley@gmail.com</u>
+            </p>
+        </section>
+        <section class="bio" id="bio">
+            <p>
+                Interesting times call for interesing and new ideas. 
+                I have worked in many fields and have a diverse education as well.
+                I served in the United States Navy, managed a small-business trucking company,
+                and worked managing construction projects. My education includes an 
+                undergraduate dual-degree in engineering and philosophy as well
+                as graduate work. With these changing times my focus has changed to becoming a web developer. 
+            </p>
+        </section>
+        <section class="projects" id="projects">
+            <p>
+                I completed a mini-capstone project in python giving users the ability
+                to query an economic indicator data over time with the option
+                to query a stock price or another economic indicator over the same time 
+                with a graphical output of the selected data over a shared time axis allowing the 
+                user to interpret any correlation. 
+            </p>
+        </section>
+    </div>
+
 </body>
 </html>
