@@ -90,6 +90,14 @@ body {
     padding: 16px;
     margin-top: 18vh;
 }
+footer{
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: blue;
+    font-weight: 200;
+    margin-bottom: 2rem;
+}
 @media (max-width: 992px) {
     .name, .contact, .bio, .projects {
         padding-left: 2rem;
