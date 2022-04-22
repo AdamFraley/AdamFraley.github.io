@@ -98,6 +98,9 @@ footer{
     font-weight: 200;
     margin-bottom: 2rem;
 }
+.name{
+    padding-top: 18vh;
+}
 @media (max-width: 992px) {
     .name, .contact, .bio, .projects {
         padding-left: 2rem;
